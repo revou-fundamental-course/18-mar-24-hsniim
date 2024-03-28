@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Husni Mubarok - Outfit Store Website</title>
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <section class="icon">
+
+        </section>
+        <section class="navbarlist">
+            <a href="#home">Home</a>
+            <a href="#product">Our Product</a>
+            <a href="#contact">Contact Us</a>
+        </section>
+       
+    </nav>
     <header id="home">
         <h1 class="header">Your Favorite <span>Outfit</span> Store</h1>
         <p class="subheader">Immediatly get your favorite outfits here</p>
+        <img src="assets/shoelagi_1.jpg" alt="">
+        <br>
+        <img src="assets/wm-shoes.jpg" alt="">
+        <br>
     </header>
 
     <main id="product">
@@ -40,7 +55,38 @@
             <h2>Shorts</h2>
             <p>Perfect for hangout and casual activities</p>
         </section>
+        <br>
+     
     </main>
+    
+    <footer id="contact">
+        <section class="form">
+            <section class="headform">
+                <h1>Call Us</h1>
+                <p>You have some problems with our product?, just contact us!, anytime we are ready to serve you.</p>
+            </section>
+            <section class="bodyform">
+                <form action="">
+                    <label for="email">Your Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                    <br>
+                    <label for="tel">Your Telephone Number</label>
+                    <br>
+                    <input type="tel" name="tel" id="tel">
+                    <br>
+                    <label for="problem">What's your problem?</label>
+                    <br>
+                    <input type="text" name="problem" id="problem" required>
+                    <br>
+                    <input type="submit">
+                </form>
+            </section>
+        </section>
+       
+    </footer>
+
+ 
     <script src="js/script.js"></script>
 </body>
 </html>

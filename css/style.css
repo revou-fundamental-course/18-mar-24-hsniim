@@ -12,8 +12,10 @@
     font-family: 'Poppins', sans-serif;
     background-color: rgb(230, 229, 229); 
     padding-bottom: 40vh;
-    
+}
 
+#home > img {
+    height: 40vh;
 }
 
 span {
@@ -22,7 +24,7 @@ span {
 
 #product {
     background-color: rgb(230, 229, 229); 
-    padding-bottom: 40vh;
+    padding-bottom: 10vh;
 }
 .producthead {
     font-family: 'Poppins', sans-serif;
@@ -45,3 +47,50 @@ span {
     align-items: center;
 }
 
+#contact {
+    background-color: rgb(230, 229, 229); 
+}
+
+.form {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.headform {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.bodyform {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: end;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.navbarlist > a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.navbarlist a:hover {
+    color: black;
+    background-color: white;
+
+} 
+
+.navbar > .icon {
+    text-align: start;
+}
